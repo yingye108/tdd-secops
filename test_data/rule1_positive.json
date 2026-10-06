@@ -1,0 +1,25 @@
+[
+    {
+        "TenantId": "54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+        "SourceSystem": "OpsManager",
+        "TimeGenerated": "2025-02-24T14:25:02.2057707Z",
+        "Source": "Microsoft-Windows-Sysmon",
+        "EventLog": "Microsoft-Windows-Sysmon/Operational",
+        "Computer": "compromised-host",
+        "EventLevel": 4,
+        "EventLevelName": "Information",
+        "ParameterXml": "<Param>-</Param><Param>2025-02-24 14:25:02.199</Param><Param>{3d7a6f6f-813e-67bc-9a01-000000000300}</Param><Param>1337</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>5.1.19041.1</Param><Param>-</Param><Param>Windows PowerShell</Param><Param>-</Param><Param>-</Param><Param>C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Param><Param>C:\\Windows\\system32\\</Param><Param>NT AUTHORITY\\SYSTEM</Param><Param>{3d7a6f6f-804b-67bc-e703-000000000000}</Param><Param>0x3e7</Param><Param>0</Param><Param>System</Param><Param>MD5=1234567890ABCDEF1234567890ABCDEF,SHA256=1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF,IMPHASH=1234567890ABCDEF1234567890ABCDEF</Param><Param>{00000000-0000-0000-0000-000000000000}</Param><Param>800</Param><Param>-</Param><Param>-</Param><Param>-</Param>",
+        "EventData": "<DataItem Type=\"System.XmlData\" time=\"2025-02-24T14:25:02.205770700Z\" sourceHealthServiceId=\"1f1a93bd-0db8-40a2-87fb-7c7c5393226e\"><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"RuleName\">-</Data><Data Name=\"UtcTime\">2025-02-24 14:25:02.199</Data><Data Name=\"ProcessGuid\">{3d7a6f6f-813e-67bc-9a01-000000000300}</Data><Data Name=\"ProcessId\">1337</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"FileVersion\">5.1.19041.1</Data><Data Name=\"Description\">-</Data><Data Name=\"Product\">Windows PowerShell</Data><Data Name=\"Company\">-</Data><Data Name=\"OriginalFileName\">-</Data><Data Name=\"CommandLine\">powershell.exe -NoProfile -ExecutionPolicy Bypass -Command ^`%ls^`%[/^`%66^`%61^`%63^`%74^`%69^`%6F^`%6E^`%28^`%29^`%()]</Data><Data Name=\"CurrentDirectory\">C:\\Windows\\system32\\</Data><Data Name=\"User\">NT AUTHORITY\\SYSTEM</Data><Data Name=\"LogonGuid\">{3d7a6f6f-804b-67bc-e703-000000000000}</Data><Data Name=\"LogonId\">0x3e7</Data><Data Name=\"TerminalSessionId\">0</Data><Data Name=\"IntegrityLevel\">System</Data><Data Name=\"Hashes\">MD5=1234567890ABCDEF1234567890ABCDEF,SHA256=1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF,IMPHASH=1234567890ABCDEF1234567890ABCDEF</Data><Data Name=\"ParentProcessGuid\">{00000000-0000-0000-0000-000000000000}</Data><Data Name=\"ParentProcessId\">800</Data><Data Name=\"ParentImage\">-</Data><Data Name=\"ParentCommandLine\">-</Data><Data Name=\"ParentUser\">-</Data></EventData></DataItem>",
+        "EventID": 1,
+        "RenderedDescription": "Process Create: RuleName: - UtcTime: 2025-02-24 14:25:02.199 ProcessGuid: {3d7a6f6f-813e-67bc-9a01-000000000300} ProcessId: 1337 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe FileVersion: 5.1.19041.1 Description: - Product: Windows PowerShell Company: - OriginalFileName: - CommandLine: powershell.exe -NoProfile -ExecutionPolicy Bypass -Command ^`%ls^`%[/^`%66^`%61^`%63^`%74^`%69^`%6F^`%6E^`%28^`%29^`%()] CurrentDirectory: C:\\Windows\\system32\\ User: NT AUTHORITY\\SYSTEM LogonGuid: {3d7a6f6f-804b-67bc-e703-000000000000} LogonId: 0x3E7 TerminalSessionId: 0 IntegrityLevel: System Hashes: MD5=1234567890ABCDEF1234567890ABCDEF,SHA256=1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF,IMPHASH=1234567890ABCDEF1234567890ABCDEF ParentProcessGuid: {00000000-0000-0000-0000-000000000000} ParentProcessId: 800 ParentImage: - ParentCommandLine: - ParentUser: -",
+        "AzureDeploymentID": "",
+        "Role": "",
+        "EventCategory": 1,
+        "UserName": "S-1-5-18",
+        "Message": "",
+        "MG": "00000000-0000-0000-0000-000000000001",
+        "ManagementGroupName": "AOI-54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+        "Type": "Event",
+        "_ResourceId": "/subscriptions/562db19c-f304-45df-8cc6-e93f7daed8cb/resourcegroups/purplecloud-00o69/providers/microsoft.compute/virtualmachines/compromised-host"
+    }
+]
